@@ -1,0 +1,445 @@
+{
+  "company_data": [
+    {
+        "company1":[
+            {
+                "acount1":
+                    [
+                        {
+                            "date":"07/05/2024 01:04 PM",
+                            "credit":"₹ 21,337",
+                            "Ac_Balance":"₹ 21,337",
+                            "UTR_RRN":"1000000",
+                            "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                        },
+                        {
+                            "date":"04/05/2024 12:38 PM",
+                            "credit":"₹ 21,337",
+                            "Ac_Balance":"₹ 21,337",
+                            "UTR_RRN":"CMS4136431811",
+                            "Ac_No_UPI":"0104SLNEFTPL"
+
+                        },
+                        {
+                            "date":"28/03/2024 05:09 PM",
+                            "credit":"₹ 21,337",
+                            "Ac_Balance":"₹ 21,337",
+                            "UTR_RRN":"CMS4019645011",
+                            "Ac_No_UPI":"ACT861VM9RR67Z5C"
+
+                        },
+                        {
+                            "date":"28/03/2024 05:09 PM",
+                            "credit":"₹ 5,015.69",
+                            "Ac_Balance":"₹₹ 5,015.69",
+                            "UTR_RRN":"CMS3956666735",
+                            "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                        },
+                        {
+                            "date":"19/03/2024 11:33 PM",
+                            "credit":"₹ 5,015.69",
+                            "Ac_Balance":"₹ 5,015.69",
+                            "UTR_RRN":"CMS3948064984",
+                            "Ac_No_UPI":"ACT861VM9RR67Z5C"
+
+                        },
+                        {
+                            "date":"19/03/2024 11:33 PM",
+                            "credit":"₹ 16,000",
+                            "Ac_Balance":"₹ 16,000",
+                            "UTR_RRN":"CMS3938564916",
+                            "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                        }
+
+                    ]                
+            },
+            {
+                "acount2": [
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"7000000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"8000000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"9000000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1000000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1006000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1006000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    }
+
+                ]   
+            }
+        ]
+    },
+    {
+        "company2":[
+            {
+                "acount1": [
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1090000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1070000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1090000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1040000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1040000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    }
+
+                ]   
+            },
+            {
+                "acount2": [
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1200000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1600000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1800000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1880000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    }
+
+                ]   
+            }
+        ]
+    },
+    {
+        "company3":[
+            {
+                "acount1": [
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1080000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1500000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1900000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1000000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1500000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    }
+
+                ]   
+            },
+            {
+                "acount2": [
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1800000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1060000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1500000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1030000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    }
+
+                ]   
+            }
+        ]
+    },
+    {
+        "company4":[
+            {
+                "acount1":  [
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"10900000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1500000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1200000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1400000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    }
+
+                ]   
+            },
+            {
+                "acount2": [
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1800000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1200000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1600000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1230000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    },
+                    {
+                        "date":"07/05/2024 01:04 PM",
+                        "credit":"₹ 21,337",
+                        "Ac_Balance":"₹ 21,337",
+                        "UTR_RRN":"1700000",
+                        "Ac_No_UPI":"AC0CF7RRUY407QHU"
+
+                    }
+
+                ]   
+            }
+        ]
+    }
+  ]
+}

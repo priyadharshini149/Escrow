@@ -1,0 +1,88 @@
+.selectoutlined,
+.selectoutlined1 {
+  font-family: var(--table-text);
+  font-size: var(--table-text-size);
+  color: var(--color);
+}
+.selectoutlined1 {
+  color: var(--color-darkslategray-100);
+}
+.selectoutlinedParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-24xl);
+}
+.vectorIcon {
+  width: 2.169rem;
+  position: relative;
+  height: 2.625rem;
+}
+.vectorWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-2xl) var(--padding-base);
+}
+.avaliableBalance,
+.div {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.5rem;
+}
+.div {
+  font-size: var(--table-heading-size);
+  font-weight: 500;
+  color: var(--green-1);
+}
+.avaliableBalanceParent,
+.frameContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.avaliableBalanceParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameContainer {
+  width: 20.356rem;
+  flex-direction: row;
+  align-items: center;
+}
+.cashStack {
+  width: 1rem;
+  position: relative;
+  height: 1rem;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-13xl);
+}
+.frameParent {
+  width: 74.444rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--card-heading-size);
+  color: var(--color-midnightblue);
+  font-family: var(--table-text);
+}
