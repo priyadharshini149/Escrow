@@ -11,9 +11,9 @@
   justify-content: flex-start;
 }
 .frameGroup {
-  width: 76.444rem;
+  width: 100%;
   flex-direction: column;
-  padding: 0 var(--padding-13xl) 0 0;
+  margin: 0 2rem 0 15rem;
   box-sizing: border-box;
   gap: var(--gap-45xl);
   color: var(--color);
@@ -30,4 +30,11 @@
   font-size: var(--table-heading-size);
   color: var(--color-white);
   font-family: var(--table-text);
+}
+
+@media only screen and (max-width: 800px) {
+  .frameGroup {
+    width: 100%;
+    margin: 0 2rem 0 2rem;
+  }
 }

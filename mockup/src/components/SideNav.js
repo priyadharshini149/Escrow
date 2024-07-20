@@ -24,7 +24,7 @@ export default function SideNav() {
       }, []);
 
     return (
-    <div >
+    <div className={styles.side}>
     {isMobile && (
         <button onClick={toggleSideNav} className={styles.toggleButton}>
           {isSideNavOpen ? <Menu/> : <Close/>} {isSideNavOpen}
@@ -69,7 +69,6 @@ export default function SideNav() {
               <div className={styles.loads}>Transactions</div>
             </div>
           </div>
-        </div>
         <div className={styles.boxArrowRightParent}>
           <img
             className={styles.boxArrowRightIcon}
@@ -77,6 +76,7 @@ export default function SideNav() {
             src="/boxarrowright.svg"
           />
           <div className={styles.loads}>Logout</div>
+        </div>
         </div>
       </div>
         )
