@@ -23,44 +23,6 @@ const Header = memo(({
         <FormControl
           className={styles.selectoutlined}
           variant="outlined"
-          sx={{
-            borderRadius: "0px 0px 0px 0px",
-            width: "220px",
-            height: "56px",
-            m: 0,
-            p: 0,
-            "& .MuiInputBase-root": {
-              m: 0,
-              p: 0,
-              minHeight: "56px",
-              justifyContent: "center",
-              display: "inline-flex",
-            },
-            "& .MuiInputLabel-root": {
-              m: 0,
-              p: 0,
-              minHeight: "56px",
-              display: "inline-flex",
-            },
-            "& .MuiMenuItem-root": {
-              m: 0,
-              p: 0,
-              height: "56px",
-              display: "inline-flex",
-            },
-            "& .MuiSelect-select": {
-              m: 1,
-              p: 0,
-              height: "56px",
-              alignItems: "center",
-              display: "inline-flex",
-            },
-            "& .MuiInput-input": { m: 0, p: 0 },
-            "& .MuiInputBase-input": {
-              textAlign: "left",
-              p: "0 !important",
-            },
-          }}
         >
           <InputLabel color="primary">Company</InputLabel>
           <Select
@@ -79,44 +41,8 @@ const Header = memo(({
           <FormHelperText />
         </FormControl>
         <FormControl
-          className={styles.selectoutlined1}
+          className={styles.selectoutlined}
           variant="outlined"
-          sx={{
-            borderRadius: "0px 0px 0px 0px",
-            width: "220px",
-            height: "56px",
-            m: 0,
-            p: 0,
-            "& .MuiInputBase-root": {
-              m: 0,
-              p: 0,
-              minHeight: "56px",
-              justifyContent: "center",
-              display: "inline-flex",
-            },
-            "& .MuiInputLabel-root": {
-              m: 0,
-              p: 0,
-              minHeight: "56px",
-              display: "inline-flex",
-            },
-            "& .MuiMenuItem-root": {
-              m: 0,
-              p: 0,
-              height: "56px",
-              display: "inline-flex",
-              textAlign: "center",
-            },
-            "& .MuiSelect-select": {
-              m: 1,
-              p: 0,
-              height: "56px",
-              alignItems: "center",
-              display: "inline-flex",
-            },
-            "& .MuiInput-input": { m: 0, p: 0 },
-            "& .MuiInputBase-input": { textAlign: "left", p: "0 !important" },
-          }}
         >
           <InputLabel color="primary">Account</InputLabel>
           <Select

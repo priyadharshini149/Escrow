@@ -3,11 +3,13 @@ import Table from "../components/Table";
 import styles from "./EasypayoutsLoadScreen.module.css";
 import data from "../data.json";
 import { useEffect, useState } from "react";
+import SideNav from "../components/SideNav";
 
 const EasypayoutsLoadScreen = () => {
   const [companyName, setCompanyName] = useState("");
   const [account, setAccount] = useState("");
   const [filteredData, setfilteredData] = useState([]);
+
 
   const handleCompanyNameChange = (event) => {
     setCompanyName(event.target.value);
@@ -55,52 +57,7 @@ const EasypayoutsLoadScreen = () => {
 
   return (
     <div className={styles.easypayoutsLoadScreen}>
-      <div className={styles.sideNav}>
-        <div className={styles.logoParent}>
-          <div className={styles.logo}>
-            <img
-              className={styles.eazypayouts21Icon}
-              alt=""
-              src="/eazypayouts2-1.svg"
-            />
-            <img className={styles.groupIcon} alt="" src="/group.svg" />
-          </div>
-          <div className={styles.frameParent}>
-            <div className={styles.boxArrowInDownParent}>
-              <img
-                className={styles.boxArrowInDownIcon}
-                alt=""
-                src="/boxarrowindown.svg"
-              />
-              <div className={styles.loads}>Loads</div>
-            </div>
-            <div className={styles.journalTextParent}>
-              <img
-                className={styles.boxArrowInDownIcon}
-                alt=""
-                src="/journaltext.svg"
-              />
-              <div className={styles.loads}>Statements</div>
-            </div>
-            <div className={styles.arrowDownUpParent}>
-              <img
-                className={styles.boxArrowInDownIcon}
-                alt=""
-                src="/arrowdownup.svg"
-              />
-              <div className={styles.loads}>Transactions</div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.boxArrowRightParent}>
-          <img
-            className={styles.boxArrowRightIcon}
-            alt=""
-            src="/boxarrowright.svg"
-          />
-          <div className={styles.loads}>Logout</div>
-        </div>
-      </div>
+        <SideNav/>
       <div className={styles.frameGroup}>
         <Header
           companyName={companyName}

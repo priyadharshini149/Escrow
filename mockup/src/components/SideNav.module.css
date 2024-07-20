@@ -1,0 +1,124 @@
+.eazypayouts21Icon {
+  width: 3.875rem;
+  position: relative;
+  height: 3.75rem;
+  overflow: hidden; 
+  flex-shrink: 0; 
+}
+.groupIcon {
+  width: 7.556rem;
+  position: relative;
+  height: 1.188rem;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  gap: 1.062rem;
+}
+.boxArrowInDownIcon {
+  width: 1.125rem;
+  position: relative;
+  height: 1.125rem;
+}
+.loads {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.5rem;
+}
+.boxArrowInDownParent,
+.journalTextParent {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-13xl) var(--padding-5xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.boxArrowInDownParent {
+  align-self: stretch;
+  background-color: var(--color-midnightblue);
+  display: flex;
+  justify-content: flex-start;
+}
+.journalTextParent {
+  background-color: #f8f8f8;
+  color: #cacaca;
+}
+.arrowDownUpParent,
+.frameParent,
+.journalTextParent,
+.logoParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.arrowDownUpParent {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-13xl) var(--padding-5xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+  color: var(--color);
+}
+.frameParent,
+.logoParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  gap: 1rem;
+}
+.logoParent {
+  gap: var(--gap-45xl);
+}
+.boxArrowRightIcon {
+  width: 1rem;
+  position: relative;
+  height: 1rem;
+}
+.boxArrowRightParent,
+.sideNav {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-start;
+}
+.boxArrowRightParent {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-13xl) var(--padding-5xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+  color: var(--color);
+}
+.sideNav {
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-13xl) 0 1.75rem;
+    gap: 38.375rem;
+  }
+.toggleButton {
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    visibility: hidden;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    position: fixed;
+    top: 1rem;
+    left: 0;
+    z-index: 1000;
+}
+@media only screen and (max-width: 600px) {
+
+    .toggleButton{
+      visibility: visible;
+    }
+    .sideNav{
+      position: absolute;
+      z-index: 2;
+    }
+    }
