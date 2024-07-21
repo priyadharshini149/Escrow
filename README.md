@@ -34,6 +34,10 @@ Start the development server:
 npm start
 ```
 
+### Application is deployed in Netlify
+
+Application: [escrowassign2.netlify.app](https://escrowassign2.netlify.app/)
+
 ### Screenshots
 ![alt text](./stockapp/public/user1_1.png)
 ![alt text](./stockapp/public/user1_2.png)
