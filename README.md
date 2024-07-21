@@ -9,9 +9,24 @@ This assignment involves replicating a [figma design](https://www.figma.com/desi
 
 ### Get started with application
 
+Clone the repository:
+
 ```
 git clone https://github.com/priyadharshini149/Escrow.git
 cd mockup
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+### Running the Application
+
+Start the development server:
+
+```
 npm start
 ```
 
