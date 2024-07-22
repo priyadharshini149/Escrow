@@ -34,6 +34,7 @@ span {
   justify-content: center;
 }
 .price {
+  position: relative;
   padding: 2rem;
   margin: 2rem 0rem;
   width: 30rem;
@@ -93,6 +94,17 @@ table th {
   font-weight: 400;
   text-align: center;
   color: rgb(103, 103, 103);
+}
+
+.last_update{
+  position: absolute; /* Add this line */
+  bottom: 1px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  color: rgb(103, 103, 103); /* Optional: for better visibility */
+  padding: 5px; 
+  border-radius: 5px; 
+  font-size: 11px;
+  
 }
 
 @media only screen and (max-width: 1200px) {

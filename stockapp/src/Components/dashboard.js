@@ -7,7 +7,7 @@ import styles from "./dashboard.module.css";
 import { Button } from "@mui/material";
 
 const Dashboard = () => {
-  const { user, subscribedStocks, logoutUser } = useContext(UserContext);
+  const { user, subscribedStocks, logoutUser,last_update } = useContext(UserContext);
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -63,9 +63,13 @@ const Dashboard = () => {
           <div className={styles.Stocks}>
             <div className={styles.sub}>
               <StockSubscription />
+              
             </div>
             <div className={styles.price}>
               <StockPrices stocks={subscribedStocks} />
+              <div className={styles.last_update}>
+          <p>last updated: {last_update}</p>
+        </div>
             </div>
           </div>
         </div>

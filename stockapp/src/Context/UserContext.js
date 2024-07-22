@@ -5,6 +5,7 @@ export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [subscribedStocks, setSubscribedStocks] = useState([]);
+  const [last_update,setLastUpdate]=useState("");
   
 
   useEffect(() => {
@@ -20,6 +21,7 @@ export const UserProvider = ({ children }) => {
       const userEmail = user.email;
       localStorage.setItem(`user-${userEmail}`, JSON.stringify(user));
       localStorage.setItem(`subscribedStocks-${userEmail}`, JSON.stringify(subscribedStocks));
+      setLastUpdate(new Date().toLocaleString())
     }
   }, [user, subscribedStocks]);
 
@@ -40,7 +42,7 @@ export const UserProvider = ({ children }) => {
   };
 
   return (
-    <UserContext.Provider value={{ user, setUser,setSubscribedStocks, subscribedStocks, subscribeToStock, logoutUser }}>
+    <UserContext.Provider value={{ user, setUser,setSubscribedStocks, subscribedStocks, subscribeToStock, logoutUser,last_update }}>
       {children}
     </UserContext.Provider>
   );
