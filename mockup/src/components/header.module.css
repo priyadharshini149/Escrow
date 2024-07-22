@@ -18,6 +18,7 @@
 }
 
 .selectoutlined {
+  position: relative;
   border-radius: 0px 0px 0px 0px;
   width: 220px;
   height: 56px;
@@ -135,26 +136,20 @@
   font-family: var(--table-text);
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
   .frameParent{
     width: 100%;
   }
   .selectoutlined {
-    border-radius: 0px 0px 0px 0px;
-    width: 200px;
-    height: 36px;
-    margin: 0;
-    padding: 0;
+    position: relative;
+    width: 150px;
+    height: 56px;
   }
-  .selectoutlinedParent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 1rem 0;
-    gap: 1rem;
+  .selectoutlinedParent{
+   gap: 1rem;
   }
+
+  
   .avaliableBalance
   {
     font-size: 20px;
@@ -162,4 +157,20 @@
   .div {
     font-size: 17px;
   }
+  .frameContainer {
+    width: 15.356rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .avaliableBalance
+  {
+    font-size: 17px;
+  }
+.div {
+  font-size: 15px;
+  font-weight: 200;
+  color: var(--green-1);
+}
 }

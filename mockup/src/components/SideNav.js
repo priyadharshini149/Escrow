@@ -3,7 +3,7 @@ import styles from "./SideNav.module.css";
 import { Menu, Close } from '@mui/icons-material';
 export default function SideNav() {
     const [isSideNavOpen, setIsSideNavOpen] = useState(true);
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <768);
     const toggleSideNav = () => {
         setIsSideNavOpen(!isSideNavOpen);
       };
@@ -27,7 +27,7 @@ export default function SideNav() {
     <div className={styles.side}>
     {isMobile && (
         <button onClick={toggleSideNav} className={styles.toggleButton}>
-          {isSideNavOpen ? <Menu/> : <Close/>} {isSideNavOpen}
+          {isSideNavOpen ? <Close/> : <Menu/> } {isSideNavOpen}
         </button>
       )}
       {

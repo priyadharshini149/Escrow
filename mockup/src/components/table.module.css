@@ -23,9 +23,10 @@ table {
   border-collapse: collapse;
   width: 100%;
   
+  
 }
 table td {
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 1rem;
 }
 table th {
   margin: 0;
@@ -38,12 +39,34 @@ table th {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .acBalance{
-    font-size: 14px;
+    font-size: 15px;
   }
   .pm {
     font-size: 15px;
   }
+  .div{
+    font-size: 15px;
+  }
  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .acBalance{
+    font-size: 12px;
+  }
+  .pm {
+    font-size: 12px;
+  }
+  .div{
+    font-size: 12px;
+  }
+  table td {
+    padding: 0.5rem;
+  }
+  table th {
+    padding: 0.5rem 0 0.5rem 0.25rem;
+  }
 }
