@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.login_con {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.log {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  width: 30rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+.login_text {
+  font-size: 40px;
+}
+.button {
+  background-color: blueviolet !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .log {
+    width: 25rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .log {
+    width: 20rem;
+  }
+}
